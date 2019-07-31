@@ -2,7 +2,7 @@
 % "Complete algorithms for algebraic strongest postconditions and
 % weakest preconditions in  polynomial ODEs" (Section 7)
 % by Michele Boreale, July 2019.
-% Required SOSTOOLS and SeDuMi (or an equivalent tool for semidefinite programming tool)
+% Requires SOSTOOLS and SeDuMi (or an equivalent tool for semidefinite programming tool)
 
 
 % 3D LOTKA-VOLTERRA
