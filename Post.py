@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# rl = 'import Post\nreload( Post)\nfrom  Post import *'
 """
 Created on Fri Dec 27 16:10:43 2019
 
