@@ -343,7 +343,7 @@ def post(pt,F,P,Xlist,Plist):
             else:
                 print("  Equality does not hold, chains not yet stabilized")
                 GS = GS + ptinst
-        else:                     # Ideal chain not stabilized
+        else:                     # Vector space chain not stabilized
             pt = SR(expansion(seqsub(gamma,pt)))       # propagate constraints gamma on pt
             S = [SR((seqsub(gamma,qt))) for qt in S]   # propagate constraints gamma on S
         if not(pt==SR(0)):
