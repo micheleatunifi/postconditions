@@ -293,11 +293,11 @@ def solver(rt):
         else:
             C=solve(lin,lin.variables()[0],solution_dict=True)      # solve one linear constraint lin
             s = C[0]                                                # obtain subst. s from solution
-            gamma=gamma+[s]
+            gamma=gamma+[s]                                         # append s to list of substitutions
     freepar = freepar-set([ s.keys()[0] for s in gamma])
     zeropar = { a:0 for a in freepar }
     if gamma!=[]:    
-        uptodateGS=False                                         # append s to list of substitutions
+        uptodateGS=False                                         
     return True, gamma
 
         
